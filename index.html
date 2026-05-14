@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Communication Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Portfolio</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#work" class="nav-link">Work</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Visual Storyteller</h1>
+                <p class="hero-subtitle">Creating compelling visual narratives through design, photography, and communication</p>
+                <a href="#work" class="btn btn-primary">Explore My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/400x500" alt="Profile" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate visual communication graduate dedicated to creating meaningful visual experiences. With expertise in design, photography, videography, and digital media, I transform ideas into compelling visual stories.</p>
+                    <p>My approach combines strategic thinking with creative execution, ensuring every project communicates effectively and resonates with its audience.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>15+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Clients Served</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/300x400" alt="About">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio/Work Section -->
+    <section id="work" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Featured Work</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="photography">Photography</button>
+                <button class="filter-btn" data-filter="video">Video</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="branding">
+                    <img src="https://via.placeholder.com/400x300" alt="Brand Identity Project">
+                    <div class="portfolio-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>Complete branding solution for tech startup</p>
+                        <a href="#" class="btn-small">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="photography">
+                    <img src="https://via.placeholder.com/400x300" alt="Photography Portfolio">
+                    <div class="portfolio-overlay">
+                        <h3>Fashion Photography</h3>
+                        <p>Editorial photoshoot for lifestyle brand</p>
+                        <a href="#" class="btn-small">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://via.placeholder.com/400x300" alt="Web Design">
+                    <div class="portfolio-overlay">
+                        <h3>Web Design</h3>
+                        <p>Responsive website design for creative agency</p>
+                        <a href="#" class="btn-small">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-category="video">
+                    <img src="https://via.placeholder.com/400x300" alt="Video Project">
+                    <div class="portfolio-overlay">
+                        <h3>Product Video</h3>
+                        <p>Professional product demonstration video</p>
+                        <a href="#" class="btn-small">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-item" data-category="branding">
+                    <img src="https://via.placeholder.com/400x300" alt="Packaging Design">
+                    <div class="portfolio-overlay">
+                        <h3>Packaging Design</h3>
+                        <p>Sustainable packaging solution for cosmetics</p>
+                        <a href="#" class="btn-small">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="portfolio-item" data-category="photography">
+                    <img src="https://via.placeholder.com/400x300" alt="Event Coverage">
+                    <div class="portfolio-overlay">
+                        <h3>Event Coverage</h3>
+                        <p>Corporate event photography and documentation</p>
+                        <a href="#" class="btn-small">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Tools</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Design</h3>
+                    <ul>
+                        <li>Graphic Design</li>
+                        <li>UI/UX Design</li>
+                        <li>Branding</li>
+                        <li>Illustration</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Photography</h3>
+                    <ul>
+                        <li>Portrait Photography</li>
+                        <li>Product Photography</li>
+                        <li>Event Photography</li>
+                        <li>Photo Editing</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Video & Motion</h3>
+                    <ul>
+                        <li>Video Production</li>
+                        <li>Motion Graphics</li>
+                        <li>Video Editing</li>
+                        <li>Animation</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools & Software</h3>
+                    <ul>
+                        <li>Adobe Creative Suite</li>
+                        <li>Figma</li>
+                        <li>Adobe Premiere Pro</li>
+                        <li>Lightroom</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-intro">I'm always interested in hearing about new projects and opportunities.</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p><a href="mailto:hello@example.com">hello@example.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Location</h3>
+                        <p>New York, USA</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+
+            <div class="social-links">
+                <a href="#" class="social-icon" title="Instagram">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <circle cx="17.5" cy="6.5" r="1.5"></circle>
+                    </svg>
+                </a>
+                <a href="#" class="social-icon" title="LinkedIn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="#" class="social-icon" title="Twitter">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2s9 5 20 5a9.5 9.5 0 0 0-9-5.5c4.75 2.25 9-0.25 11-4-4.3 1.5-7 4-7 4"></path>
+                    </svg>
+                </a>
+                <a href="#" class="social-icon" title="Behance">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M9.5 8c.83 0 1.5-.67 1.5-1.5S10.33 5 9.5 5 8 5.67 8 6.5 8.67 8 9.5 8zm0 2c-2.49 0-4.5 2.01-4.5 4.5s2.01 4.5 4.5 4.5 4.5-2.01 4.5-4.5-2.01-4.5-4.5-4.5zm0 1c1.93 0 3.5 1.57 3.5 3.5s-1.57 3.5-3.5 3.5-3.5-1.57-3.5-3.5 1.57-3.5 3.5-3.5z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Visual Communication Portfolio. All rights reserved.</p>
+            <p>Designed with <span class="heart">♥</span> by Adedarshini Lakshman</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
